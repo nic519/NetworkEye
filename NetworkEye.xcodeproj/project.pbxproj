@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A09FAC01BF6FC3F0009EC53 /* UIWindow+NEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09FABF1BF6FC3F0009EC53 /* UIWindow+NEExtension.m */; };
 		0A1202E31BF097BC00B710A9 /* NEURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1202E21BF097BC00B710A9 /* NEURLSessionConfiguration.m */; };
 		0A4EF8451BEB66FF000D2D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EF8441BEB66FF000D2D7E /* main.m */; };
 		0A4EF8481BEB66FF000D2D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EF8471BEB66FF000D2D7E /* AppDelegate.m */; };
@@ -48,8 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A09FABE1BF6FC3F0009EC53 /* UIWindow+NEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+NEExtension.h"; sourceTree = "<group>"; };
-		0A09FABF1BF6FC3F0009EC53 /* UIWindow+NEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+NEExtension.m"; sourceTree = "<group>"; };
 		0A1202E11BF097BC00B710A9 /* NEURLSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEURLSessionConfiguration.h; sourceTree = "<group>"; };
 		0A1202E21BF097BC00B710A9 /* NEURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEURLSessionConfiguration.m; sourceTree = "<group>"; };
 		0A4EF8401BEB66FF000D2D7E /* NetworkEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,8 +200,6 @@
 				0A4EF8881BEB6735000D2D7E /* NEHTTPModelManager.m */,
 				0A4EF8891BEB6735000D2D7E /* NEShakeGestureManager.h */,
 				0A4EF88A1BEB6735000D2D7E /* NEShakeGestureManager.m */,
-				0A09FABE1BF6FC3F0009EC53 /* UIWindow+NEExtension.h */,
-				0A09FABF1BF6FC3F0009EC53 /* UIWindow+NEExtension.m */,
 				0A1202E11BF097BC00B710A9 /* NEURLSessionConfiguration.h */,
 				0A1202E21BF097BC00B710A9 /* NEURLSessionConfiguration.m */,
 				EE6CCB601DB1BB6D00EAA45F /* NEKeyboardShortcutManager.h */,
@@ -300,6 +295,7 @@
 				TargetAttributes = {
 					0A4EF83F1BEB66FF000D2D7E = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = R8WVS6R8SP;
 					};
 					0A4EF8581BEB66FF000D2D7E = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -413,7 +409,6 @@
 				0A4EF8971BEB6735000D2D7E /* NEHTTPEyeViewController.m in Sources */,
 				0A4EF8991BEB6735000D2D7E /* NEHTTPModelManager.m in Sources */,
 				0ADE8CFA1BF4999A0096A1E5 /* NEHTTPEyeSettingsViewController.m in Sources */,
-				0A09FAC01BF6FC3F0009EC53 /* UIWindow+NEExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +548,7 @@
 			baseConfigurationReference = 2375E39544CB697EF96E7ACF /* Pods-NetworkEye.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8WVS6R8SP;
 				INFOPLIST_FILE = NetworkEye/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -583,6 +579,7 @@
 			baseConfigurationReference = 78F596A72B3544114EDC0FEA /* Pods-NetworkEye.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8WVS6R8SP;
 				INFOPLIST_FILE = NetworkEye/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
